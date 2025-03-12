@@ -53,6 +53,7 @@
             this.Liczba2.Size = new System.Drawing.Size(162, 22);
             this.Liczba2.TabIndex = 11;
             this.Liczba2.Click += new System.EventHandler(this.textBox1_TextChanged_1);
+            this.Liczba2.TextChanged += new System.EventHandler(this.Liczba2_TextChanged);
             // 
             // Dodawanie
             // 
@@ -72,6 +73,7 @@
             this.Odejmowanie.TabIndex = 13;
             this.Odejmowanie.Text = "Odejmowanie";
             this.Odejmowanie.UseVisualStyleBackColor = true;
+            this.Odejmowanie.Click += new System.EventHandler(this.Odejmowanie_Click);
             // 
             // Mnozenie
             // 
@@ -81,6 +83,7 @@
             this.Mnozenie.TabIndex = 14;
             this.Mnozenie.Text = "Mnozenie";
             this.Mnozenie.UseVisualStyleBackColor = true;
+            this.Mnozenie.Click += new System.EventHandler(this.Mnozenie_Click);
             // 
             // button11
             // 
@@ -90,6 +93,7 @@
             this.button11.TabIndex = 15;
             this.button11.Text = "Dzielenie";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // label1
             // 
